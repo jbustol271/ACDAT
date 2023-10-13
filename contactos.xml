@@ -1,0 +1,32 @@
+<contactos>
+	<contacto id = 'c001'>
+		<nombre>José</nombre>
+		<apellidos>Carcía</apellidos>
+		<correos>
+			<trabajo>jrgarcia@iesbelen.org</trabajo>
+		</correos>
+		<telefonos>
+			<movil>616616616</movil>
+		</telefonos>
+	</contacto>
+	<contacto id = 'c002'>
+		<nombre>Antonio</nombre>
+		<apellidos>Luque</apellidos>
+		<correos>
+			<personal>antonioluque@gmail.com</personal>
+			<trabajo>aluque@iesbelen.org</trabajo>
+		</correos>
+		<telefonos>
+			<movil>626626626</movil>
+			<casa>952952952</casa>
+		</telefonos>
+	</contacto>
+	<contacto id = 'c003'>
+		<nombre>Ana</nombre>
+		<apellidos>Pérez</apellidos>
+		<telefonos>
+			<casa>954954954</casa>
+			<trabajo>953953953</trabajo>
+		</telefonos>
+	</contacto>
+</contactos>	
