@@ -11,6 +11,7 @@ public class Main {
             saxParser.parse("contactos.xml", new MiGestorContactosXML());
 
         } catch (Exception e) {
+
             e.printStackTrace();
         }
     }
