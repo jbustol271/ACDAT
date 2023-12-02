@@ -1,5 +1,12 @@
 package org.acdat.negocio;
 
+import org.acdat.jdbc.ClienteDao;
+import org.acdat.jdbc.MiJDBC;
+
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
 public class Agencia {
     protected int id;
     protected String nombre;
@@ -11,6 +18,10 @@ public class Agencia {
         this.nombre = nombre;
         this.direccion = direccion;
         this.telefono = telefono;
+    }
+
+    public Agencia() {
+
     }
 
     public void setId(int id) {
@@ -59,5 +70,46 @@ public class Agencia {
                 ", direccion='" + direccion + '\'' +
                 ", telefono='" + telefono + '\'' +
                 '}';
+    }
+
+
+    public String mostrarAgencias() throws SQLException {
+        String respuesta="";
+
+
+        return respuesta;
+    }
+
+    public boolean  agregarAgencia() throws SQLException {
+        boolean respuesta = false;
+
+        return respuesta;
+    }
+
+    public boolean  actualizarAgencia() throws SQLException {
+        boolean respuesta = false;
+
+        return respuesta;
+    }
+
+    public boolean cargarAgencia() throws SQLException {
+        boolean respuesta = false;
+
+
+        return respuesta;
+    }
+
+    public boolean existeAgencia() throws SQLException {
+        boolean respuesta = false;
+
+
+        return respuesta;
+    }
+
+    public boolean  eliminarAgencia() throws SQLException {
+        boolean respuesta = false;
+
+
+        return respuesta;
     }
 }

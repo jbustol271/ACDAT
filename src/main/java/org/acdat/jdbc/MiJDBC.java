@@ -57,4 +57,34 @@ public class MiJDBC {
         }
         return respuesta;
     }
+
+    public void sqlDDL (String ddlSQL) {
+
+    }
+
+    public void IniciarTransaccion() {
+        try {
+            connection.setAutoCommit(false);
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public void commitTransaccion() {
+        try {
+            connection.commit();
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public void rollbackTransaccion () {
+        try {
+            connection.rollback();
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+
 }

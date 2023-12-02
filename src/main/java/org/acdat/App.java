@@ -14,7 +14,7 @@ public class App
 {
     public static void main( String[] args ) throws SQLException {
         VistaCliente vistaCliente = new VistaCliente();
-
         vistaCliente.crudCliente();
+
     }
 }
